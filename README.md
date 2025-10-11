@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🌐 Linktree Clone
 
-## Getting Started
+A minimalist, authentication-free Linktree alternative built with Next.js, TypeScript, and Tailwind CSS. Perfect for showcasing your social profiles, portfolio, or personal links in a clean, mobile-optimized layout.
 
-First, run the development server:
+🚀 Features
 
-```bash
+🔗 Display multiple links on a single page
+
+🖼️ Customizable profile picture and bio
+
+🎨 Responsive design with Tailwind CSS
+
+⚡️ Fast development with Next.js
+
+🧠 Fully typed with TypeScript for maintainability
+
+🚫 No authentication required — just deploy and go
+
+🛠️ Tech Stack
+Tool	Purpose
+Next.js	React framework for SSR & routing
+TypeScript	Static typing for reliability
+Tailwind CSS	Utility-first styling
+Vercel	Deployment platform
+📸 Preview
+
+Add a screenshot or GIF of your app here
+
+![Linktree Clone Screenshot](./assets/linktree-screenshot.png)
+
+📂 Project Structure
+src/
+ ┣ components/
+ ┃ ┣ Header.tsx        # Profile header with avatar and bio
+ ┃ ┣ LinkCard.tsx      # Individual link card component
+ ┃ ┣ LinkList.tsx      # List of all links
+ ┃ ┗ Footer.tsx        # Optional footer with additional info
+ ┣ pages/
+ ┃ ┗ index.tsx         # Main page rendering all components
+ ┣ public/
+ ┃ ┗ images/           # Profile picture and other assets
+ ┣ styles/
+ ┃ ┗ globals.css       # Global styles
+ ┣ tsconfig.json       # TypeScript configuration
+ ┗ next.config.js      # Next.js configuration
+
+⚙️ Getting Started
+1️⃣ Clone the repository
+git clone https://github.com/aadil-qamri/linktree.git
+cd linktree
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4️⃣ Open in your browser
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Visit http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+💡 Customization
 
-## Learn More
+Profile Picture: Replace the image in public/images/profile.jpg with your own.
 
-To learn more about Next.js, take a look at the following resources:
+Bio: Edit the text in components/Header.tsx to update your bio.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Links: Modify the array in components/LinkList.tsx to add or remove links. Each link object should have:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+title: The text displayed on the button
 
-## Deploy on Vercel
+url: The destination URL
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+icon: Optional icon class (e.g., from Font Awesome
+)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🚀 Deployment
+
+Deploy your Linktree clone with Vercel:
+
+Push your changes to a GitHub repository.
+
+Go to Vercel
+.
+
+Click on "New Project" and import your GitHub repository.
+
+Follow the prompts to deploy.
+
+Your site will be live in minutes!
+
+🧑‍💻 Author
+
+Aadil Ansari
+💼 GitHub
+ • 🌐 Portfolio
+ • ✉️ Email
+
+⭐ Support
+
+If you find this project useful, please give it a star ⭐ on GitHub!
