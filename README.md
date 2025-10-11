@@ -57,7 +57,7 @@ npm run dev
 
 4️⃣ Open in your browser
 
-Visit http://localhost:3000
+Visit https://linktree-delta-seven.vercel.app/
 
 💡 Customization
 
