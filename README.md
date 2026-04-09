@@ -93,8 +93,8 @@ Your site will be live in minutes!
 
 Aadil Ansari
 💼 GitHub
- • 🌐 Portfolio
- • ✉️ Email
+ • 🌐 [Portfolio](https://github.com/aadil-qamri)
+ • ✉️ Email (aadilansari.ws@gmail.com)
 
 ⭐ Support
 
